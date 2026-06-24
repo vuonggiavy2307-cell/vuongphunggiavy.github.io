@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tiêu đề trang web hiển thị trên tab trình duyệt -->
+    <title>Vương Phùng Gia Vỹ</title>
+    <!-- Tailwind CSS Play CDN ổn định tuyệt đối trên trình duyệt -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons Production Release -->
+    <script src="https://unpkg.com/lucide@0.475.0/dist/umd/lucide.min.js"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-indigo-500 selection:text-white">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md border-b border-slate-200 z-50">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <!-- Tên thương hiệu hiển thị tên đầy đủ của bạn -->
+            <a href="#" class="text-xl font-bold bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">Vương Phùng Gia Vỹ</a>
+            <div class="hidden md:flex space-x-8 font-medium text-slate-600">
+                <a href="#about" class="hover:text-indigo-600 transition">Giới thiệu</a>
+                <a href="#skills" class="hover:text-indigo-600 transition">Kỹ năng</a>
+                <a href="#projects" class="hover:text-indigo-600 transition">Dự án</a>
+                <a href="#contact" class="hover:text-indigo-600 transition">Liên hệ</a>
+            </div>
+            <a href="#contact" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-sm transition">Tuyển dụng tôi</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="pt-32 pb-20 md:pt-40 md:pb-32 px-4 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+        <div class="flex-1 space-y-6 text-center md:text-left">
+            <div class="inline-flex items-center gap-2 bg-indigo-50 font-medium text-indigo-700 px-3 py-1 rounded-full text-sm">
+                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Sẵn sàng nhận việc / Thực tập
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 leading-tight">
+                Xin chào, tôi là <br class="hidden md:block">
+                <span class="bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">Vương Phùng Gia Vỹ</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-600 max-w-2xl leading-relaxed">
+                Sinh viên ngành <strong>Công nghệ Thông tin</strong> tại UMT. Định hướng phát triển các giải pháp phần mềm tối ưu, kết hợp tư duy phân tích logic hệ thống và năng lực quản lý điều hành tổ chức.
+            </p>
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2">
+                <a href="#projects" class="bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-xl font-medium shadow-md transition flex items-center gap-2">
+                    Xem dự án <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+                <a href="#contact" class="border border-slate-300 hover:bg-slate-100 px-6 py-3 rounded-xl font-medium transition flex items-center gap-2">
+                    Liên hệ ngay
+                </a>
+            </div>
+        </div>
+        <!-- Khung ảnh đại diện hiển thị file ảnh cục bộ của bạn -->
+        <div class="w-64 h-80 md:w-80 md:h-[420px] relative flex-shrink-0">
+            <div class="absolute inset-0 bg-indigo-600 rounded-3xl rotate-3 opacity-10 blur-xl"></div>
+            <img src="z7970670244341_6f68c04ad0cec48f40cf5fc99079d023.jpg" alt="Vương Phùng Gia Vỹ" class="w-full h-full object-cover rounded-2xl border-4 border-white shadow-xl relative z-10" />
+        </div>
+    </section>
+
+    <!-- EDUCATION & EXPERIENCE SECTION -->
+    <section id="about" class="py-20 bg-white border-y border-slate-200 px-4">
+        <div class="max-w-5xl mx-auto space-y-12">
+            <div class="text-center space-y-2">
+                <h2 class="text-3xl font-bold text-slate-900">Học Vấn & Kinh Nghiệm Hoạt Động</h2>
+                <div class="w-12 h-1 bg-indigo-600 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
+                <!-- Học vấn -->
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-4">
+                    <div class="flex items-center gap-3 text-indigo-600">
+                        <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+                        <h3 class="text-xl font-bold text-slate-900">Học Vấn Chính Quy</h3>
+                    </div>
+                    <div class="space-y-2 border-l-2 border-indigo-600 pl-4">
+                        <p class="font-bold text-slate-900 text-base">Trường Đại học Quản lý và Công nghệ TP.HCM (UMT)</p>
+                        <p class="text-indigo-600 font-medium text-sm">Niên khóa: 2025 - 2029</p>
+                        <p class="text-slate-700 text-sm font-medium">Chuyên ngành: Công nghệ Thông tin</p>
+                        <p class="text-slate-600 text-sm">Điểm trung bình tích lũy: <strong>GPA 7.5</strong></p>
+                    </div>
+                </div>
+
+                <!-- Hoạt động ngoại khóa -->
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-4">
+                    <div class="flex items-center gap-3 text-violet-600">
+                        <i data-lucide="users" class="w-6 h-6"></i>
+                        <h3 class="text-xl font-bold text-slate-900">Hoạt Động Ngoại Khóa</h3>
+                    </div>
+                    <div class="space-y-2 border-l-2 border-violet-600 pl-4">
+                        <p class="font-bold text-slate-900 text-base">Câu lạc bộ UMC Marketing</p>
+                        <p class="text-violet-600 font-medium text-sm">Chức vụ: Chủ tịch</p>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Chịu trách nhiệm quản lý, điều hành toàn bộ nhân sự và lên kế hoạch thực thi các chiến dịch truyền thông của CLB. Rèn luyện năng lực lãnh đạo, tổ chức công việc bài bản.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="py-20 px-4 max-w-6xl mx-auto space-y-12">
+        <div class="text-center space-y-2">
+            <h2 class="text-3xl font-bold text-slate-900">Năng Lực & Kỹ Năng</h2>
+            <p class="text-slate-500">Sự kết hợp giữa công nghệ nền tảng, ngôn ngữ quốc tế và kỹ năng mềm</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Chuyên môn IT -->
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+                <div class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center">
+                    <i data-lucide="code" class="w-5 h-5"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900">Công Nghệ & Lập Trình</h3>
+                <ul class="space-y-2.5 text-slate-600 text-sm">
+                    <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-indigo-600"></span> Cấu trúc dữ liệu & Giải thuật</li>
+                    <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-indigo-600"></span> Lập trình ứng dụng Web (Frontend/Backend)</li>
+                    <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-indigo-600"></span> Truy vấn dữ liệu hệ thống (SQL / MySQL)</li>
+                </ul>
+            </div>
+            <!-- Ngoại ngữ & Thương mại -->
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+                <div class="w-10 h-10 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center">
+                    <i data-lucide="languages" class="w-5 h-5"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900">Ngoại Ngữ & Thương Mại</h3>
+                <div class="bg-violet-50 p-2 rounded-xl border border-violet-100 text-xs font-semibold text-violet-700 inline-block mb-1">
+                    Chứng chỉ: IELTS 6.0
+                </div>
+                <ul class="space-y-2.5 text-slate-600 text-sm">
+                    <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-violet-600"></span> Đọc hiểu sâu tài liệu kỹ thuật tiếng Anh</li>
+                    <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-violet-600"></span> <strong>Tiếng Anh thương mại:</strong> Thành thạo biểu mẫu chứng từ xuất nhập khẩu cốt lõi gồm: <strong>B/L (Vận đơn), Invoice (Hóa đơn), Packing List (Phiếu đóng gói)</strong>.</li>
+                </ul>
+            </div>
+            <!-- Kỹ năng mềm -->
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+                <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
+                    <i data-lucide="brain" class="w-5 h-5"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900">Kỹ Năng Thế Mạnh</h3>
+                <ul class="space-y-2.5 text-slate-600 text-sm">
+                    <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> <strong>Phân tích & giải quyết vấn đề</strong></li>
+                    <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> <strong>Làm việc nhóm (Teamwork)</strong></li>
+                    <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> <strong>Quản lý thời gian tối ưu</strong></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="py-20 bg-white border-t border-slate-200 px-4">
+        <div class="max-w-6xl mx-auto space-y-12">
+            <div class="text-center space-y-2">
+                <h2 class="text-3xl font-bold text-slate-900">Dự Án Nghiên Cứu & Phát Triển</h2>
+                <p class="text-slate-500">Các hệ thống ứng dụng thực tế hóa kiến thức CNTT phối hợp kỹ năng chuyên ngành</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Dự án 1 -->
+                <div class="group bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 hover:shadow-md transition">
+                    <div class="h-48 bg-slate-200 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600" alt="Project 1" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="text-xl font-bold text-slate-900">Hệ Thống Quản Lý Kho & Phân Phối Vận Tải</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Mô hình hóa phần mềm tối ưu hóa tuyến đường vận chuyển, tích hợp quản lý trạng thái luân chuyển hàng hóa và tự động hóa kết xuất biểu mẫu phân bổ vật tư giữa các khu vực địa lý lớn (HCM, Đà Nẵng, Nha Trang).
+                        </p>
+                        <div class="flex flex-wrap gap-2 text-xs font-medium">
+                            <span class="bg-indigo-50 text-indigo-700 px-2.5 py-1 rounded-md">ReactJS</span>
+                            <span class="bg-violet-50 text-violet-700 px-2.5 py-1 rounded-md">Node.js</span>
+                            <span class="bg-emerald-50 text-emerald-700 px-2.5 py-1 rounded-md">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dự án 2 -->
+                <div class="group bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 hover:shadow-md transition">
+                    <div class="h-48 bg-slate-200 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600" alt="Project 2" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="text-xl font-bold text-slate-900">Website Quản Lý Nhân Sự & Bảng Lương Nội Bộ</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Phát triển nền tảng ứng dụng hỗ trợ kế toán quản trị tính toán dữ liệu lương động, ghi nhận hạn mức tạm ứng công việc của nhân công theo hệ số cụ thể một cách chuẩn xác theo thời gian thực.
+                        </p>
+                        <div class="flex flex-wrap gap-2 text-xs font-medium">
+                            <span class="bg-indigo-50 text-indigo-700 px-2.5 py-1 rounded-md">Next.js</span>
+                            <span class="bg-violet-50 text-violet-700 px-2.5 py-1 rounded-md">Spring Boot</span>
+                            <span class="bg-emerald-50 text-emerald-700 px-2.5 py-1 rounded-md">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-20 px-4 max-w-4xl mx-auto space-y-12">
+        <div class="text-center space-y-2">
+            <h2 class="text-3xl font-bold text-slate-900">Kết Nối Với Tôi</h2>
+            <p class="text-slate-500">Thông tin liên hệ chính thức của Vương Phùng Gia Vỹ</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <!-- Thông tin nhanh -->
+            <div class="space-y-6 bg-slate-100 p-6 rounded-2xl border border-slate-200">
+                <h3 class="text-xl font-bold text-slate-900 mb-4">Thông tin trực tiếp</h3>
+                <div class="space-y-4 text-slate-600">
+                    <!-- Email -->
+                    <div class="flex items-start gap-3">
+                        <i data-lucide="mail" class="w-5 h-5 text-indigo-600 mt-0.5 flex-shrink-0"></i>
+                        <a href="mailto:vuonggiavy@gmail.com" class="hover:text-indigo-600 break-all transition font-medium">vuonggiavy@gmail.com</a>
+                    </div>
+                    <!-- Điện thoại -->
+                    <div class="flex items-start gap-3">
+                        <i data-lucide="phone" class="w-5 h-5 text-indigo-600 mt-0.5 flex-shrink-0"></i>
+                        <div class="flex flex-col gap-1 font-medium">
+                            <a href="tel:+84832383709" class="hover:text-indigo-600 transition">+84 832 383 709</a>
+                            <a href="tel:+84705982870" class="hover:text-indigo-600 transition">+84 705 982 870</a>
+                        </div>
+                    </div>
+                    <!-- Địa chỉ -->
+                    <div class="flex items-start gap-3">
+                        <i data-lucide="map-pin" class="w-5 h-5 text-indigo-600 mt-0.5 flex-shrink-0"></i>
+                        <span class="text-sm">Số 38 - QL80, Châu Thành, Tân Phú Trung, Đồng Tháp</span>
+                    </div>
+                    <!-- LinkedIn -->
+                    <div class="flex items-start gap-3 pt-3 border-t border-slate-200">
+                        <i data-lucide="linkedin" class="w-5 h-5 text-indigo-600 mt-0.5 flex-shrink-0"></i>
+                        <a href="https://www.linkedin.com/in/vy-v%C6%B0%C6%A1ng-77510a409?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="text-indigo-600 font-bold hover:underline flex items-center gap-1">
+                            LinkedIn Profile <i data-lucide="external-link" class="w-3 h-3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Form liên hệ mẫu -->
+            <form class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4" onsubmit="event.preventDefault(); alert('Cảm ơn bạn đã gửi lời nhắn!');">
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Họ và tên người gửi</label>
+                    <input type="text" placeholder="Nguyễn Văn A" class="w-full px-4 py-2.5 border border-slate-200 rounded-xl text-sm focus:outline-indigo-600 bg-slate-50" required />
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Email liên hệ</label>
+                    <input type="email" placeholder="name@company.com" class="w-full px-4 py-2.5 border border-slate-200 rounded-xl text-sm focus:outline-indigo-600 bg-slate-50" required />
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Lời nhắn</label>
+                    <textarea rows="4" placeholder="Tôi muốn trao đổi về cơ hội làm việc..." class="w-full px-4 py-2.5 border border-slate-200 rounded-xl text-sm focus:outline-indigo-600 bg-slate-50 resize-none" required></textarea>
+                </div>
+                <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2.5 rounded-xl text-sm shadow-sm transition">
+                    Gửi lời nhắn
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 py-8 border-t border-slate-800 text-center text-sm">
+        <p>&copy; 2026 Vương Phùng Gia Vỹ. Mọi quyền được bảo lưu.</p>
+    </footer>
+
+    <!-- Script kích hoạt Lucide icon tự động -->
+    <script>
+        window.addEventListener("DOMContentLoaded", function() {
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
+        });
+    </script>
+</body>
+</html>
